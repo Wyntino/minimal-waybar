@@ -17,8 +17,12 @@ window#waybar {
   margin-left: 8px;
 }
 
-#group-power {
-  margin-right: 6px;
+#custom-power {
+  margin-right: 20px;
+}
+
+#custom-reboot {
+  margin-right: 4px;
 }
 
 #custom-cava {
