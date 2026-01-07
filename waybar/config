@@ -7,7 +7,7 @@
     "width": 1080,
     "modules-left": ["custom/cava"],
     "modules-center": ["clock"],
-    "modules-right": ["bluetooth", "tray", "battery", "group/group-power"],
+    "modules-right": ["bluetooth", "tray", "battery", "custom/reboot", "custom/power"],
 
     "custom/cava": {
       "format": "{}",
@@ -40,16 +40,6 @@
       "tooltip-format": "{controller_alias}\t{controller_address}",
       "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
       "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
-    },
-
-    "group/group-power": {
-      "orientation": "inherit",
-      "drawer": {
-        "transition-duration": 500,
-        "children-class": "not-power",
-        "transition-left-to-right": false
-      },
-      "modules": ["custom/power", "custom/reboot"]
     },
 
     "custom/reboot": {
